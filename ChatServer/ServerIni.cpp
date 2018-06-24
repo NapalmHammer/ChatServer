@@ -3,6 +3,8 @@
 #include <iostream>
 #pragma comment(lib,"ws2_32.lib") //Required for WinSock
 
+// Edits for GitHub testing
+
 Server::Server(int _PORT, bool _LoopBackToLocalHost, bool _takingNewUsers)
 {
 	// Winsock startup
